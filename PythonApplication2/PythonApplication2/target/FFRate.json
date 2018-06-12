@@ -1,0 +1,21 @@
+{
+	"static":
+	{
+		"prefix":"https://www.federalreserve.gov/feeds/Data/H15_H15_RIF",
+		"suffix":"_N.B.XML"
+	},
+	"combination":
+	{
+		"FF":"SP",
+		"M01":"LGFC",
+		"M03":"LGFC",
+		"M06":"LGFC",
+		"Y01":"LGFC",
+		"Y02":"LGFC",
+		"Y03":"LGFC",
+		"Y05":"LGFC",
+		"Y10":"LGFC",
+		"Y20":"LGFC",
+		"Y30":"LGFC"
+	}
+}
