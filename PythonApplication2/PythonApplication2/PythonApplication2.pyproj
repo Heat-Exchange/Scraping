@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a3ca0f0d-5b26-47b9-b5a7-7d6df835ef4f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>getFFRate.py</StartupFile>
+    <StartupFile>Database\class1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Database\module1.py">
+    <Compile Include="Database\class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\database.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\valiable_database_test.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="getFFRate.py" />

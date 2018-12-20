@@ -27,7 +27,7 @@ class XMLprocess:
         self.numericalData=float(self.intactdata)
         return self.numericalData
 
-"""
+
 url="https://www.federalreserve.gov/feeds/Data/H15_H15_RIFLGFCY30_N.B.XML"
 XML=XMLprocess(url)
 intactdate=XML.get_intactData("dc:date")
@@ -37,4 +37,3 @@ print(strdate)
 rate=XML.get_floatData("cb:value")
 print(rate)
 XML=None
-"""
